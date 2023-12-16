@@ -11,6 +11,7 @@
     --text-color-light: hsl(var(--hue-color), 4%, 65%);
     --white: #fff;
     --body-color: hsl(var(--hue-color), 4%, 6%);
+    --container-color: hsl(var(--hue-color), 4%, 10%);
     --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
     --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
     --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
@@ -355,4 +356,27 @@ img {
 .case__description {
     margin-bottom: var(--mb-1-5);
     line-height: var(--text-line-height);
+}
+
+.discount__container {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 2rem 1.5rem;
+    border-radius: .75rem;
+}
+
+.discount__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.discount__description {
+    margin-bottom: var(--mb-1);
+}
+
+.discount__img {
+    width: 300px;
+    position: absolute;
+    top: 4rem;
+    right: -11rem;
 }
