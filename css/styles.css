@@ -23,7 +23,7 @@
     --h3-font-size: 1.125rem;
     --normal-font-size: .938rem;
     --small-font-size: .913rem;
-    --smaller-font-siz: .75rem;
+    --smaller-font-size: .75rem;
     --text-line-height: 2rem;
 
     --font-medium: 500;
@@ -296,4 +296,43 @@ img {
     row-gap: 5rem;
     justify-items: center;
     align-items: center;
+}
+
+.specs__container {
+    position: relative;
+}
+
+.specs__content {
+    row-gap: 1.5rem;
+}
+
+.specs__data {
+    display: grid;
+    row-gap: .25rem;
+}
+
+.specs__icon {
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.specs__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.specs__subtitle {
+    font-size: var(--smaller-font-size);
+}
+
+.specs__data:nth-child(1),
+.specs__data:nth-child(4) {
+    margin-left: var(--mb-1-5);
+}
+
+.specs__img {
+    width: 250px;
+    position: absolute;
+    top: 2rem;
+    right: -4rem;
 }
