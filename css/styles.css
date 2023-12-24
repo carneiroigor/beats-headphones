@@ -507,3 +507,33 @@ img {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
 }
+
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    display: flex;
+    background-color: var(--container-color);
+
+    border-radius: .25rem;
+    padding: .45rem;
+    opacity: 9;
+    z-index: var(--z-tooltip);
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.scrollup:hover {
+    background-color: var(--black-color);
+    opacity: 1;
+}
+
+.scrollup__icon {
+    color: var(--white);
+    font-size: 1.35rem;
+}
+
+.show-scroll {
+    bottom: 5rem;
+}
