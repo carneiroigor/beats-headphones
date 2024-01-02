@@ -18,4 +18,4 @@
 
 <h2 id="deploy">Deploy 🌐</h2>
 
-- You can visit the deployed app at this link: (link)
+- You can visit the deployed app at this link: (NOT FINISHED)
