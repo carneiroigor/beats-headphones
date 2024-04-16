@@ -3,7 +3,6 @@
 </h1>
 <p align="center">
  <a href="#tech">Technologies</a> • 
- <a href="#deploy">Deploy</a>
 </p>
 
 <p align="center">
