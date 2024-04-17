@@ -2,7 +2,7 @@
     BEATS
 </h1>
 <p align="center">
- <a href="#tech">Technologies</a> • 
+ <a href="#tech">Technologies</a>
 </p>
 
 <p align="center">
